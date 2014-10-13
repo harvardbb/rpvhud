@@ -13,7 +13,7 @@
         "enabled"	"1"
         "visible"	"1"			     				//"1" to enable
 		"labeltext"	"c"          					//Change this to use a different crosshair
-        "font"		"FogsXhair20"							
+        "font"		"FogsXhair20"					//changes between fog's xhairs, seeker's xhairs, and broeselhud blue's xhairs		
         "fgcolor"	"255 255 255 255" 
 	}
 	
