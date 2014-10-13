@@ -86,18 +86,15 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"0"
-		"xpos_hidef"	"14"
-		"ypos"			"60"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"600"
-		"wide_lodef"	"570"
-		"wide_hidef"	"590"
 		"tall"			"388"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"border"		"TFThinLineBorder"
 		
 		if_mvm
@@ -105,7 +102,22 @@
 			"ypos"			"0"
 			"tall"			"448"
 		}
-	}							
+	}	
+	"NewBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"NewBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"600"
+		"tall"			"388"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"rpvgreyopaque"
+	}		
 	"BlueTeamLabel"
 	{
 		"ControlName"		"CExLabel"

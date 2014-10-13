@@ -5,8 +5,8 @@
         "controlname"	"CExLabel"
 		"fieldname"	"Crosshair"
         "textAlignment"	"center"
-		"xpos"		"c-100"
-		"ypos"		"c-101"
+		"xpos"		"0"
+		"ypos"		"2"
 		"zpos"		"-2"
 		"wide"		"f0"
 		"tall"		"480"
@@ -267,7 +267,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"280"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
@@ -285,7 +285,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"280"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
@@ -300,7 +300,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"380"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"35"
@@ -1034,14 +1034,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"480"
 	}	
 
 	HudTeamGoal
