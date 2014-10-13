@@ -2941,6 +2941,66 @@ Scheme
                 "antialias" "1"
             }
         }
+		
+		FogsXhair12
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		FogsXhair14
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+		
+		FogsXhair16
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		FogsXhair18
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		
+		FogsXhair20
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		FogsXhair22
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"22"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//
@@ -4886,6 +4946,11 @@ Scheme
 		{
 			"font" "resource/fonts/heydings_icons.ttf"
 			"name" "Heydings Icons"
-		}		
+		}	
+		"11"
+        {
+            "font" "resource/fonts/crosshairs.ttf"
+            "name" "Crosshairs Regular"
+        }		
 	}
 }

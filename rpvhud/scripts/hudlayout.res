@@ -1,5 +1,22 @@
 "Resource/HudLayout.res"
 {
+	"Crosshair"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Crosshair"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-101"
+		"zpos"		"-2"
+		"wide"		"f0"
+		"tall"		"480"
+        "enabled"	"1"
+        "visible"	"1"			     				//"1" to enable
+		"labeltext"	"c"          					//Change this to use a different crosshair
+        "font"		"FogsXhair20"							
+        "fgcolor"	"255 255 255 255" 
+	}
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
