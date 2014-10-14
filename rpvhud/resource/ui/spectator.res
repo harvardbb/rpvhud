@@ -73,6 +73,8 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"east"
 		"font"			"FontBold28"
+		"fgcolor"		"rpvwhite"
+		"fgcolor_override"	"rpvwhite"
 	}
 	"BuyBackLabel"
 	{

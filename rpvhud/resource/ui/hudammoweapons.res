@@ -170,7 +170,7 @@
 		"visible"		"0"
 		"visible_minmode" "1"
 		"enabled"		"1"
-		"fillcolor"			"rpvdarkgreyopaque"
+		"fillcolor"			"rpvdarkgrey"
 	}
 	"AmmoLow"
 	{

@@ -99,7 +99,7 @@
 		"visible"		"0"
 		"visible_minmode" "1"
 		"enabled"		"1"
-		"fillcolor"			"rpvdarkgrey"
+		"fillcolor"			"rpvdarkgreyopaque"
 	}
 	"BGBuff"
 	{
@@ -142,7 +142,7 @@
 		"xpos"			"c-174"	[$WIN32]
 		"xpos_minmode"	"9999"
 		"ypos"			"r166"	[$WIN32]
-		"zpos"			"10"
+		"zpos"			"-10"
 		"wide"			"78"	[$WIN32]
 		"tall"			"78"	[$WIN32]
 		"visible"		"0"

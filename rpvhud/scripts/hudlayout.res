@@ -507,7 +507,7 @@
 		"IconColor"		"rpvwhite"
 		"LocalPlayerColor"	"rpvblack"
 
-		"BaseBackgroundColor"	"rpvdarkgrey"		[$WIN32]
+		"BaseBackgroundColor"	"rpvdarkgreyopaque"		[$WIN32]
 		"LocalBackgroundColor"	"rpvwhite"	[$WIN32]
 	}
 

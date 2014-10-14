@@ -33,8 +33,6 @@
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"c-188"		[$WIN32]
 		"ypos"			"r190"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"55"
@@ -82,9 +80,9 @@
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"0"		[$WIN32]
 		"xpos_minmode"			"9999"
-		"ypos"			"r30"	[$WIN32]
+		"ypos"			"r40"	[$WIN32]
 		"zpos"			"1"		
-		"wide"			"100"
+		"wide"			"125"
 		"tall"			"25"
 		"visible"		"1"
 		"visible_minmode"	"0"
@@ -139,7 +137,7 @@
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "172"
+			"angles_y" "270"
 			"angles_z" "0"
 			"origin_x" "200"
 			"origin_y" "0"
@@ -212,91 +210,91 @@
 			"Scout"
 			{
 				"fov"			"25"
-				"angles_x"		"-17"
-				"angles_y"		"220"
+				"angles_x"		"0"
+				"angles_y"		"270"
 				"angles_z"		"-10"
 				"origin_x"		"105"
-				"origin_y"		"-1"
+				"origin_y"		"15"
 				"origin_z"		"-82"
 			}
 			"Sniper"
 			{
 				"fov"			"25"
-				"angles_x"		"-10"
-				"angles_y"		"172"
+				"angles_x"		"-2"
+				"angles_y"		"272"
 				"angles_z"		"0"
 				"origin_x"		"130"
-				"origin_y"		"-3"
+				"origin_y"		"15"
 				"origin_z"		"-97"
 			}
 			"Soldier"
 			{
 				"fov"			"25"
-				"angles_x"		"-10"
-				"angles_y"		"170"
+				"angles_x"		"0"
+				"angles_y"		"260"
 				"angles_z"		"0"
-				"origin_x"		"145"
-				"origin_y"		"-5"
+				"origin_x"		"150"
+				"origin_y"		"24"
 				"origin_z"		"-90"
 			}
 			"Demoman"
 			{
 				"fov"			"25"
-				"angles_x"		"-13"
-				"angles_y"		"200"
+				"angles_x"		"0"
+				"angles_y"		"270"
 				"angles_z"		"0"
 				"origin_x"		"138"
-				"origin_y"		"-4"
+				"origin_y"		"20"
 				"origin_z"		"-93"
 			}
 			"Medic"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"228"
+				"angles_x"		"2"
+				"angles_y"		"270"
 				"angles_z"		"0"
 				"origin_x"		"150"
-				"origin_y"		"-5"
+				"origin_y"		"15"
 				"origin_z"		"-96"
 			}
 			"Heavy"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"200"
+				"angles_x"		"0"
+				"angles_y"		"270"
 				"angles_z"		"0"
 				"origin_x"		"200"
-				"origin_y"		"0"
+				"origin_y"		"15"
 				"origin_z"		"-102"
 			}
 			"Pyro"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"172"
+				"angles_x"		"0"
+				"angles_y"		"270"
 				"angles_z"		"0"
 				"origin_x"		"175"
-				"origin_y"		"-5"
+				"origin_y"		"22"
 				"origin_z"		"-90"
 			}
 			"Spy"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"160"
+				"angles_x"		"0"
+				"angles_y"		"270"
 				"angles_z"		"0"
 				"origin_x"		"160"
-				"origin_y"		"0"
+				"origin_y"		"15"
 				"origin_z"		"-95"
 			}
 			"Engineer"
 			{
 				"fov"			"20"
-				"angles_x"		"-10"
-				"angles_y"		"168"
+				"angles_x"		"0"
+				"angles_y"		"270"
 				"angles_z"		"0"
-				"origin_x"		"140"
-				"origin_y"		"-2"
+				"origin_x"		"160"
+				"origin_y"		"15"
 				"origin_z"		"-82"
 			}
 		}

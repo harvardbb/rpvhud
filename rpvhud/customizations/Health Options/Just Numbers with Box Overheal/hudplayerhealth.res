@@ -22,14 +22,15 @@
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"c-170"
 		"xpos_minmode"	"90"
-		"ypos"			"r162"
+		"ypos"			"9999"
 		"ypos_minmode"	"r31"
 		"zpos"			"4"
 		"wide"			"70"
 		"wide_minmode"	"27"
 		"tall"			"70"
 		"tall_minmode"	"27"
-		"visible"		"1"
+		"visible"		"0"
+		"visible_minmode" "1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
@@ -39,14 +40,15 @@
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"c-172"
 		"xpos_minmode"	"88"
-		"ypos"			"r164"
+		"ypos"			"9999"
 		"ypos_minmode"	"r33"
 		"zpos"			"3"
 		"wide"			"74"
 		"wide_minmode"	"31"
 		"tall"			"74"
 		"tall_minmode"	"31"
-		"visible"		"1"
+		"visible"		"0"
+		"visible_minmode" "1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
@@ -60,7 +62,7 @@
 		"zpos"			"1"		
 		"wide"			"30"
 		"tall"			"78"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -77,7 +79,7 @@
 		"zpos"			"-9999"		
 		"wide"			"78"
 		"tall"			"30"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode" "0"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -89,13 +91,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGNormal"
-		"xpos"			"9999"		[$WIN32]
+		"xpos"			"c-196"		[$WIN32]
 		"xpos_minmode"	"0"
-		"ypos"			"9999"	[$WIN32]
+		"ypos"			"r147"	[$WIN32]
 		"ypos_minmode"	"r35"
 		"zpos"			"-9999"		
-		"wide"			"200"
-		"tall"			"35"
+		"wide"			"100"
+		"wide_minmode"	"200"
+		"tall"			"38"
+		"tall_minmode"	"35"
 		"visible"		"0"
 		"visible_minmode" "1"
 		"enabled"		"1"
@@ -105,14 +109,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGBuff"
-		"xpos"			"9999"		[$WIN32]
+		"xpos"			"c-196"		[$WIN32]
 		"xpos_minmode"	"0"
-		"ypos"			"9999"	[$WIN32]
+		"ypos"			"r147"	[$WIN32]
 		"ypos_minmode"	"r35"
 		"zpos"			"-9998"		
-		"wide"			"200"
-		"tall"			"35"
-		"visible"		"0"
+		"wide"			"100"
+		"wide_minmode"	"200"
+		"tall"			"38"
+		"tall_minmode"	"35"
+		"visible"		"1"
 		"visible_minmode" "1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/bg_blue"
@@ -122,14 +128,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGHurt"
-		"xpos"			"9999"		[$WIN32]
+		"xpos"			"c-196"		[$WIN32]
 		"xpos_minmode"	"0"
-		"ypos"			"9999"	[$WIN32]
+		"ypos"			"r147"	[$WIN32]
 		"ypos_minmode"	"r35"
 		"zpos"			"-9998"		
-		"wide"			"200"
-		"tall"			"35"
-		"visible"		"0"
+		"wide"			"100"
+		"wide_minmode"	"200"
+		"tall"			"38"
+		"tall_minmode"	"35"
+		"visible"		"1"
 		"visible_minmode" "1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/bg_red"
@@ -139,14 +147,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"c-174"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
 		"xpos_minmode"	"9999"
 		"ypos"			"r166"	[$WIN32]
 		"zpos"			"10"
 		"wide"			"78"	[$WIN32]
 		"tall"			"78"	[$WIN32]
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"enabled_minmode"	"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
@@ -166,9 +174,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"textAlignment_minmode"	"east"
-		"font"			"FontBold28"
+		"font"			"FontBold48"
 		"font_minmode"	"FontBold44"
 		"fgcolor_override"		"rpvwhite"
 	}		
@@ -187,9 +195,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"east"	
 		"textAlignment_minmode"	"east"
-		"font"			"FontBold28"
+		"font"			"FontBold48"
 		"font_minmode"	"FontBold44"
 		"fgcolor_override"		"rpvblack"
 	}		

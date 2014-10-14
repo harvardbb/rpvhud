@@ -7,12 +7,12 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"21"
-		"tall"		"21"
+		"wide"		"25"
+
+		"tall"		"25"
 		"visible"	"1"
 		"enabled"	"1"
 	}
-	
 	"ImageBorderLeft"
         {
                 "ControlName"   "ImagePanel"           
@@ -24,7 +24,7 @@
                 "tall"          "25"
                 "visible"       "1"
                 "enabled"       "1"
-                "fillcolor"     "rpvpale"
+                "fillcolor"     "rpvwhite"
                 "scaleImage"    "1"
         }
        
@@ -32,14 +32,14 @@
         {
                 "ControlName"   "ImagePanel"           
                 "fieldName"     "ImageBorderRight"
-                "xpos"          "19"
+                "xpos"          "23"
                 "ypos"          "0"
                 "zpos"          "4"
                 "wide"          "3"
                 "tall"          "25"
                 "visible"       "1"
                 "enabled"       "1"
-                "fillcolor"     "rpvpale"
+                "fillcolor"     "rpvwhite"
                 "scaleImage"    "1"
         }
        
@@ -54,7 +54,7 @@
                 "tall"          "3"
                 "visible"       "1"
                 "enabled"       "1"
-                "fillcolor"     "rpvpale"
+                "fillcolor"     "rpvwhite"
                 "scaleImage"    "1"
         }
        
@@ -63,75 +63,15 @@
                 "ControlName"   "ImagePanel"           
                 "fieldName"     "ImageBorderBottom"
                 "xpos"          "0"
-                "ypos"          "19"
+                "ypos"          "23"
                 "zpos"          "4"
                 "wide"          "25"
                 "tall"          "3"
                 "visible"       "1"
                 "enabled"       "1"
-                "fillcolor"     "rpvpale"
+                "fillcolor"     "rpvwhite"
                 "scaleImage"    "1"
         }
-		"ImageBorderLeft2"
-        {
-                "ControlName"   "ImagePanel"           
-                "fieldName"     "ImageBorderLeft2"
-                "xpos"          "-1"
-                "ypos"          "0"
-                "zpos"          "14"
-                "wide"          "2"
-                "tall"          "25"
-                "visible"       "1"
-                "enabled"       "1"
-                "fillcolor"     "rpvpale"
-                "scaleImage"    "1"
-        }
-       
-        "ImageBorderRight2"
-        {
-                "ControlName"   "ImagePanel"           
-                "fieldName"     "ImageBorderRight2"
-                "xpos"          "20"
-                "ypos"          "0"
-                "zpos"          "14"
-                "wide"          "2"
-                "tall"          "25"
-                "visible"       "1"
-                "enabled"       "1"
-                "fillcolor"     "rpvpale"
-                "scaleImage"    "1"
-        }
-       
-        "ImageBorderTop2"
-        {
-                "ControlName"   "ImagePanel"           
-                "fieldName"     "ImageBorderTop2"
-                "xpos"          "-1"
-                "ypos"          "0"
-                "zpos"          "14"
-                "wide"          "25"
-                "tall"          "1"
-                "visible"       "1"
-                "enabled"       "1"
-                "fillcolor"     "rpvpale"
-                "scaleImage"    "1"
-        }
-       
-        "ImageBorderBottom2"
-        {
-                "ControlName"   "ImagePanel"           
-                "fieldName"     "ImageBorderBottom2"
-                "xpos"          "0"
-                "ypos"          "20"
-                "zpos"          "14"
-                "wide"          "25"
-                "tall"          "2"
-                "visible"       "1"
-                "enabled"       "1"
-                "fillcolor"     "rpvpale"
-                "scaleImage"    "1"
-        }
-		
 	"Countdown"
 	{
 		"ControlName"	"CControlPointCountdown"
@@ -143,20 +83,7 @@
 		"tall"		"33"
 		"visible"	"1"
 		"enabled"	"1"
-		"fgcolor"	"rpvblack"
-	}	
-	
-	"Countdown"
-	{
-		"ControlName"	"CControlPointCountdown"
-		"fieldName"	"Countdown"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"4"
-		"wide"		"21"
-		"tall"		"21"
-		"visible"	"1"
-		"enabled"	"1"
+		"fgcolor"	"rpvwhite"
 	}	
 
 	"CapPlayerImage"
@@ -166,8 +93,8 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"3"
-		"wide"		"7"
-		"tall"		"14"
+		"wide"		"10"
+		"tall"		"20"
 		"visible"	"0"
 		"enabled"	"1"
 		"image"		"capture_icon"
@@ -179,13 +106,11 @@
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
 		"font"			"Font12"
-		"fgcolor"		"rpvblack"
-		"fgcolor_override"	"rpvblack"
-		"xpos"			"8"
-		"ypos"			"5"
+		"xpos"			"10"
+		"ypos"			"-4"
 		"zpos"			"4"
-		"wide"			"14"
-		"tall"			"10"
+		"wide"			"20"
+		"tall"			"33"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -200,11 +125,11 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"	"OverlayImage"
-		"xpos"		"12"
-		"ypos"		"0"
+		"xpos"		"14"
+		"ypos"		"2"
 		"zpos"		"4"
-		"wide"		"9"
-		"tall"		"9"
+		"wide"		"10"
+		"tall"		"10"
 		"visible"	"0"
 		"enabled"	"1"
 		"image"		"capture_icon"
@@ -218,8 +143,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"7"
-		"tall"			"10"
+		"wide"			"9"
+		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"60"
@@ -227,9 +152,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"Font10"
-		"fgcolor"		"rpvblack"
-		"fgcolor_override"	"rpvblack"
+		"font"			"Font12"
 	}
 				
 	"CPTimerBG"
@@ -239,8 +162,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"		"42"
-		"tall"		"21"
+		"wide"		"66"
+		"tall"		"33"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_timer"	
