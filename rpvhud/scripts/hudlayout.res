@@ -5,15 +5,15 @@
         "controlname"	"CExLabel"
 		"fieldname"	"Crosshair"
         "textAlignment"	"center"
-		"xpos"		"0"
-		"ypos"		"2"
+		"xpos"		"c-27"
+		"ypos"		"c-25"
 		"zpos"		"-2"
-		"wide"		"f0"
-		"tall"		"480"
+		"wide"		"50"
+		"tall"		"50"
         "enabled"	"1"
         "visible"	"1"			     				//"1" to enable
-		"labeltext"	"c"          					//Change this to use a different crosshair
-        "font"		"FogsXhair20"					//changes between fog's xhairs, seeker's xhairs, and broeselhud blue's xhairs		
+		"labeltext"	"x"          					//Change this to use a different crosshair
+        "font"		"seeker12"					//changes between fog's xhairs, seeker's xhairs, and broeselhud blue's xhairs		
         "fgcolor"	"255 255 255 255" 
 	}
 	
