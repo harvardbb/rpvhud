@@ -1351,7 +1351,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Droid Sans"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1362,7 +1362,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Droid Sans"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1374,7 +1374,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Droid Sans Bold"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
@@ -1385,7 +1385,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Droid Sans Bold"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
@@ -1397,7 +1397,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Droid Sans"
 				"tall"		"16"
 				"tall_hidef"	"24"
 				"weight"	"900"
