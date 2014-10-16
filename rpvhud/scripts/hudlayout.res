@@ -1,19 +1,36 @@
 "Resource/HudLayout.res"
 {
-	"Crosshair"
+	"Fog's Crosshair"
 	{
         "controlname"	"CExLabel"
-		"fieldname"	"Crosshair"
+		"fieldname"	"Fog's Crosshair"
         "textAlignment"	"center"
 		"xpos"		"c-27"
 		"ypos"		"c-25"
 		"zpos"		"-2"
 		"wide"		"50"
 		"tall"		"50"
-        "enabled"	"0"
+        "enabled"	"1"
         "visible"	"0"			     				//"1" to enable
-		"labeltext"	"x"          					//Change this to use a different crosshair
-        "font"		"seeker12"					//changes between fog's xhairs, seeker's xhairs, and broeselhud blue's xhairs		
+		"labeltext"	"c"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+
+	"Seeker's Crosshair"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Seeker's Crosshair"
+        "textAlignment"	"center"
+		"xpos"		"c-27"
+		"ypos"		"c-25"
+		"zpos"		"-2"
+		"wide"		"50"
+		"tall"		"50"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"x"          					
+        "font"		"seeker12"						
         "fgcolor"	"255 255 255 255" 
 	}
 	
