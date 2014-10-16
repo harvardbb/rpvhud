@@ -159,7 +159,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Right"
-		"xpos"			"30"		[$WIN32]
+		"xpos"			"31"		[$WIN32]
 		"ypos"			"6"	[$WIN32]
 		"zpos"			"10"		
 		"wide"			"2"

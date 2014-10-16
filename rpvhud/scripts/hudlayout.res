@@ -10,7 +10,7 @@
 		"zpos"		"-2"
 		"wide"		"50"
 		"tall"		"50"
-        "enabled"	"1"
+        "enabled"	"0"
         "visible"	"1"			     				//"1" to enable
 		"labeltext"	"x"          					//Change this to use a different crosshair
         "font"		"seeker12"					//changes between fog's xhairs, seeker's xhairs, and broeselhud blue's xhairs		
@@ -90,14 +90,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"480"
 	}
 	
 	HudDemomanCharge
@@ -208,11 +204,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"c120"	[$WIN32]
+		"ypos"					"r220"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -224,9 +217,7 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"76"
-		"xpos_minmode"			"61"
 		"ypos"					"r152"
-		"ypos_minmode"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
