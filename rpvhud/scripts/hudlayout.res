@@ -11,7 +11,7 @@
 		"wide"		"50"
 		"tall"		"50"
         "enabled"	"0"
-        "visible"	"1"			     				//"1" to enable
+        "visible"	"0"			     				//"1" to enable
 		"labeltext"	"x"          					//Change this to use a different crosshair
         "font"		"seeker12"					//changes between fog's xhairs, seeker's xhairs, and broeselhud blue's xhairs		
         "fgcolor"	"255 255 255 255" 
