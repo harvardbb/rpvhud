@@ -1,18 +1,528 @@
 "Resource/HudLayout.res"
 {
-	"Fog's Crosshair"
+	"Small Cross"
 	{
         "controlname"	"CExLabel"
-		"fieldname"	"Fog's Crosshair"
+		"fieldname"	"Small Cross"
         "textAlignment"	"center"
-		"xpos"		"c-27"
-		"ypos"		"c-25"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
 		"zpos"		"-2"
-		"wide"		"50"
-		"tall"		"50"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"1"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Big Cross"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Big Cross"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"2"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Dot"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Dot"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"3"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Small Dot"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Small Dot"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"4"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Block"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Block"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"5"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Small Block"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Small Block"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"6"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Cross with Dot"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Cross with Dot"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"7"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Circle with Dot"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Circle with Dot"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"8"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Circle Crosshair"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Circle Crosshair"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"9"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Scatter Dot"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Scatter Dot"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"0"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Large Cross with Dot"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Large Cross with Dot"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"."          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Cross with Gap"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Cross with Gap"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	","          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Thick Cross"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Thick Cross"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"a"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Biggest Cross"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Biggest Cross"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"b"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Cross in Semi Circle"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Cross in Semi Circle"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
         "enabled"	"1"
         "visible"	"0"			     				//"1" to enable
 		"labeltext"	"c"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Parentheses"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Parentheses"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"d"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Smallest Cross with Dot"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Smallest Cross with Dot"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"e"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Default Crosshair"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Default Crosshair"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"f"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Small Parentheses"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Small Parentheses"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"g"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Thin Cross with Gap"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Thin Cross with Gap"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"i"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Thin Cross with Dot"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Thin Cross with Dot"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"h"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Hollow Square"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Hollow Square"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"j"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Thick Hollow Square"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Thick Hollow Square"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"k"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Super Small Cross with Dot"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Super Small Cross with Dot"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"l"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Super Small Cross with Gap"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Super Small Cross with Gap"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"m"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"TF2 Logo"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"TF2 Logo"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"n"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Large TF2 Logo"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Large TF2 Logo"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"o"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Grumpy Face"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Grumpy Face"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"p"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Small Grumpy Face"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Small Cross"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"q"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Circle with Slashes"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Circle with Slashes"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"r"          					
+        "font"		"FogsXhair20"						
+        "fgcolor"	"255 255 255 255" 
+	}
+	
+	"Circle with Slashes with Dot"
+	{
+        "controlname"	"CExLabel"
+		"fieldname"	"Circle with Slashes with Dot"
+        "textAlignment"	"center"
+		"xpos"		"c-100"
+		"ypos"		"c-100"
+		"zpos"		"-2"
+		"wide"		"200"
+		"tall"		"200"
+        "enabled"	"1"
+        "visible"	"0"			     				//"1" to enable
+		"labeltext"	"s"          					
         "font"		"FogsXhair20"						
         "fgcolor"	"255 255 255 255" 
 	}

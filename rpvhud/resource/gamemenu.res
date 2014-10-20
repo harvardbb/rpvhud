@@ -23,7 +23,7 @@
 	}
 	"PlayPVEButton"
 	{
-		"label" "MVM" 
+		"label" "PVE" 
 		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"

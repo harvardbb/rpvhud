@@ -6,7 +6,7 @@
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"-60"
 		"ypos"			"2"
-		"zpos"			"4"
+		"zpos"			"3"
 		"wide"			"150"
 		"tall"			"14"
 		"visible"		"1"
@@ -19,7 +19,7 @@
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"-60"
 		"ypos"			"0"
-		"zpos"			"3"
+		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"18"
 		"visible"		"1"
@@ -33,7 +33,7 @@
 		"fieldName"		"BuildingStatusHealthImageBG"
 		"xpos"	"2"
 		"ypos"	"3"
-		"zpos"			"2"
+		"zpos"			"1"
 		"wide"	"22"
 		"tall"	"22"
 		"visible"		"0"
@@ -45,13 +45,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"	"8"
+		"xpos"	"9999"
 		"ypos"	"8"
 		"zpos"			"3"
 		"wide"	"12"
 		"tall"	"12"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -152,4 +152,17 @@
 		"enabled"		"1"
 		"fillcolor"				"rpvdarkgrey"	
 	}	
+	"Stuffs"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Stuffs"
+		"xpos"			"-50"		[$WIN32]
+		"ypos"			"2"	[$WIN32]
+		"zpos"			"4"		
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"				"0 0 0 75"	
+	}
 }

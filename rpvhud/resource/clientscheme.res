@@ -2931,6 +2931,134 @@ Scheme
 			}
 		}
 		
+		Sosa12
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		Sosa16
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		Sosa20
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		Sosa22
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"22"
+				"antialias" "1"
+			}
+		}
+		
+		Sosa24
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		Sosa28
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		Sosa32
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		Sosa36
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		Sosa38
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"38"
+				"antialias" "1"
+			}
+		}
+		
+		Sosa40
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		
+		Sosa44
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"44"
+				"antialias" "1"
+			}
+		}
+		
+		Sosa48
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		Sosa56
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
 		ClassLogo
         {
             "1"
@@ -4218,6 +4346,66 @@ Scheme
 				{
 					"color" "TanDarker"
 					"offset" "1 0"
+				}
+			}
+		}
+		
+		TBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "166 166 166 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "166 166 166 0"
+					"offset" "2 2"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "166 166 166 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "166 166 166 0"
+					"offset" "1 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "166 166 166 0"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "166 166 166 0"
+					"offset" "1 2"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "166 166 166 0"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "166 166 166 0"
+					"offset" "1 2"
 				}
 			}
 		}
@@ -5903,6 +6091,11 @@ Scheme
 		{
 			"font" "resource/fonts/BCrosshairs.ttf"
 			"name" "broeselhud Crosshairs"
+		}	
+		"14"
+		{
+			"font" "resource/fonts/sosa-regular-webfont.ttf"
+			"name" "Sosa Regular"
 		}		
 	}
 }
