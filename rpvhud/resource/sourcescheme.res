@@ -126,8 +126,8 @@ Scheme
                 Panel.FgColor                                   "DullWhite"
                 Panel.BgColor                                   "Blank"
  
-                ProgressBar.FgColor                             "black"
-                ProgressBar.BgColor                             "white"
+                ProgressBar.FgColor                             "45 125 235 204"
+                ProgressBar.BgColor                             "black"
  
                 PropertySheet.TextColor                 "white"
                 PropertySheet.SelectedTextColor "45 125 235 255"
@@ -155,11 +155,11 @@ Scheme
                 ScrollBarSlider.FgColor                         "220 220 220 255"                       // nob color
                 ScrollBarSlider.BgColor                         "184 184 184 0"       // slider background color
  
-                SectionedListPanel.HeaderTextColor      "Black"
+                SectionedListPanel.HeaderTextColor      "white"
                 SectionedListPanel.HeaderBgColor        "white"
                 SectionedListPanel.DividerColor         "0 0 0 150"
                 SectionedListPanel.TextColor            "white"
-                SectionedListPanel.BrightTextColor      "45 45 45 255"
+                SectionedListPanel.BrightTextColor      "white"
                 SectionedListPanel.BgColor                      "black"
                 SectionedListPanel.SelectedTextColor                    "White"
                 SectionedListPanel.SelectedBgColor                              "45 125 235 204"

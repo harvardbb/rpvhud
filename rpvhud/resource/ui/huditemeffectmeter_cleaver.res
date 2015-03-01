@@ -12,7 +12,7 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -25,11 +25,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
 		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -52,15 +52,15 @@
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"c-50"
-		"ypos"					"r120"
+		"xpos"					"c-75"
+		"ypos"					"r130"
 		"zpos"					"2"
-		"wide"					"100"
-		"tall"					"8"				
+		"wide"					"150"
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -69,6 +69,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"		"rpvwhite"
-		"bgcolor_override"		"rpvgreyopaque"
-	}					
+		"bgcolor_override"		"rpvblackopaque"
+	}
 }

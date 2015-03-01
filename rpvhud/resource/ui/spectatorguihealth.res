@@ -11,8 +11,8 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,8 +25,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -39,21 +39,21 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"-60"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"24"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthValue"
 	{
@@ -66,7 +66,7 @@
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"0"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 	}
 	"PlayerStatusPlayerLevel"
 	{
@@ -80,7 +80,7 @@
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"ScoreboardVerySmall"
 		"fgcolor"		"TFOrange"
 	}
@@ -90,31 +90,31 @@
         "fieldName"     "PlayerStatusHealthValueID"
         "xpos"          "-1"
         "ypos"          "6"
-        "zpos"          "6"
+        "zpos"          "12"
         "wide"          "32"
         "tall"          "20"
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "%Health%"
-        "textAlignment" "center"    
+        "textAlignment" "center"
         "font"          "FontBold20"
-        "fgcolor"       "rpvwhite"
-    }	
-    "PlayerStatusHealthValueIDShadow"
+        "fgcolor"       "255 255 255 255"
+    }
+    "PlayerStatusHealthValueShadow"
     {
         "ControlName"   "CExLabel"
         "fieldName"     "PlayerStatusHealthValueIDShadow"
         "xpos"          "0"
         "ypos"          "7"
-        "zpos"          "5"
+        "zpos"          "11"
         "wide"          "32"
         "tall"          "20"
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "%Health%"
-        "textAlignment" "center"    
+        "textAlignment" "center"
         "font"          "FontBold20"
-        "fgcolor"       "rpvblack"
+        "fgcolor"       "shadow1"
     }
 	"Top"
 	{
@@ -122,12 +122,12 @@
 		"fieldName"		"Top"
 		"xpos"			"0"		[$WIN32]
 		"ypos"			"6"	[$WIN32]
-		"zpos"			"10"		
+		"zpos"			"10"
 		"wide"			"32"
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"				"rpvdarkgrey"	
+		"fillcolor"				"rpvdarkgrey"
 	}
 	"Bottom"
 	{
@@ -135,12 +135,12 @@
 		"fieldName"		"Bottom"
 		"xpos"			"0"		[$WIN32]
 		"ypos"			"24"	[$WIN32]
-		"zpos"			"10"		
+		"zpos"			"10"
 		"wide"			"32"
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"				"rpvdarkgrey"	
+		"fillcolor"				"rpvdarkgrey"
 	}
 	"Left"
 	{
@@ -148,25 +148,25 @@
 		"fieldName"		"Left"
 		"xpos"			"0"		[$WIN32]
 		"ypos"			"6"	[$WIN32]
-		"zpos"			"10"		
+		"zpos"			"10"
 		"wide"			"2"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"				"rpvdarkgrey"	
+		"fillcolor"				"rpvdarkgrey"
 	}
 	"Right"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Right"
-		"xpos"			"31"		[$WIN32]
+		"xpos"			"30"		[$WIN32]
 		"ypos"			"6"	[$WIN32]
-		"zpos"			"10"		
+		"zpos"			"10"
 		"wide"			"2"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"				"rpvdarkgrey"	
+		"fillcolor"				"rpvdarkgrey"
 	}
 	"Stuffs"
 	{
@@ -174,11 +174,25 @@
 		"fieldName"		"Stuffs"
 		"xpos"			"-50"		[$WIN32]
 		"ypos"			"7"	[$WIN32]
-		"zpos"			"4"		
+		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"				"0 0 0 75"	
+		"fillcolor"				"0 0 0 75"
+	}
+	"Stuffs2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Stuffs2"
+		"xpos"			"-50"		[$WIN32]
+		"ypos"			"7"	[$WIN32]
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"				"rpvblue"
+		"alpha"			"0"
 	}
 }

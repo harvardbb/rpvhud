@@ -1,15 +1,15 @@
 "Resource/UI/HudDemomanCharge.res"
-{	
+{
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"c-50"
+		"xpos"			"c-75"
 		"ypos"			"r140"
 		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"8"				
+		"wide"			"150"
+		"tall"			"6"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -17,7 +17,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"rpvgreyopaque"
+		"bgcolor_override"	"rpvblackopaque"
 		"fgcolor_override"	"rpvwhite"
-	}					
+	}
 }

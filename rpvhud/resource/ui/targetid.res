@@ -18,12 +18,12 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -39,10 +39,10 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/bg_blue"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
 	}
@@ -60,30 +60,30 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/bg_red"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
 	}
-	
+
 	"Shade"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Shade"
 		"xpos"			"2"		[$WIN32]
 		"ypos"			"8"	[$WIN32]
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"600"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"				"rpvgreyopaque"	
+		"fillcolor"				"rpvdarkgreyopaque"
 	}
-	
+
 	"TargetNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"FontBold12"
@@ -104,7 +104,7 @@
 		"brighttext"		"0"
 	}
 	"TargetDataLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"FontBold12"
@@ -128,20 +128,20 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"3"
+		"xpos"			"0"
 		"ypos"			"2"
 		"zpos"			"2"
 		"wide"			"32"
 		"tall"			"26"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
-		"HealthDeathWarningColor"	"rpvred"
+		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"rpvwhite"
-	}	
-	
+	}
+
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -156,7 +156,7 @@
 		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"
 	}
-	
+
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -171,7 +171,7 @@
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}
-	
+
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -182,8 +182,8 @@
 		"wide"			"32"
 		"tall"			"36"
 		"visible"		"1"
-		"enabled"		"1"	
-		
+		"enabled"		"1"
+
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -199,7 +199,7 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
-		
+
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -232,7 +232,7 @@
 		}
 
 		"MoveableKeyLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"FontBold12"
@@ -250,6 +250,6 @@
 			"textAlignment"		"center"
 			"dulltext"		"0"
 			"brighttext"		"0"
-		}	
+		}
 	}
 }

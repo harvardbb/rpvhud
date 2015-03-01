@@ -69,6 +69,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"		"rpvwhite"
-		"bgcolor_override"		"rpvgreyopaque"
+		"bgcolor_override"		"rpvblackopaque"
 	}					
 }

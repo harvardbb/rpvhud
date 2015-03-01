@@ -9,7 +9,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-				
+
 		"team1_player_base_offset_x"		"0"
 		"team1_player_base_y"				"200"
 		"team1_player_delta_x"				"0"
@@ -18,17 +18,17 @@
 		"team2_player_base_y"				"300"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"18"
-		
+
 		"playerpanels_kv"
 		{
 			"visible"		"0"
 			"wide"			"128"
 			"tall"			"18"
 			"zpos"			"1"
-			
+
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-										  			
+
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -45,7 +45,7 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
 				//"fgcolor"		"235 226 202 255"
-					
+
 				if_mvm
 				{
 					"xpos"				"0"
@@ -55,7 +55,7 @@
 					"font"				"PlayerPanelPlayerName"
 				}
 			}
-			
+
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -68,8 +68,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
-				
+				"scaleImage"	"1"
+
 				if_mvm
 				{
 					"xpos"			"5"
@@ -79,7 +79,7 @@
 					"image"			"../vgui/hud_connecting"
 				}
 			}
-			
+
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
@@ -93,13 +93,13 @@
 				"enabled"		"1"
 				"bgcolor_override"		"rpvgrey"
 				"PaintBackgroundType"	"0"
-				
+
 				if_mvm
 				{
 					"visible"		"1"
 				}
 			}
-			
+
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
@@ -110,14 +110,14 @@
 				"wide"				"32"
 				"tall"				"18"
 				"visible"			"1"
-				"enabled"			"1"	
+				"enabled"			"1"
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
-				"HealthDeathWarningColor"	"rpvred"
+				"HealthDeathWarningColor"	"HUDDeathNotice"
 				"TextColor"					"rpvwhite"
 			}
-			
+
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
@@ -135,16 +135,16 @@
 
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
-			
+
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
-				
+
 				if_mvm
 				{
 					"visible"		"1"
-				}	
+				}
 			}
-			
+
 			"ReadyImage"
 			{
 				"ControlName"		"ImagePanel"
@@ -166,7 +166,7 @@
 					"visible"		"1"
 				}
 			}
-			
+
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
@@ -183,13 +183,13 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"fgcolor"		"rpvwhite"
-				
+
 				if_mvm
 				{
 					"ypos"			"17"
 				}
 			}
-			
+
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
@@ -207,7 +207,7 @@
 				"textAlignment"	"center"
 				"fgcolor"		"rpvblack"
 			}
-			
+
 			"specindex"
 			{
 				"ControlName"	"CExLabel"
@@ -225,23 +225,23 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
-			
+
 			if_mvm
 			{
 				"wide"		"55"
 				"tall"		"35"
 			}
 		}
-		
+
 		if_mvm
 		{
 			"xpos"					"c-250"
 			"ypos"					"6"
 			"wide"					"500"
 			"tall"					"180"
-	
+
 			"team1_player_delta_x"			"52"
-		}		
+		}
 	}
 
 	"topbar"
@@ -270,9 +270,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"r300"
+		"xpos"			"r605"
 		"ypos"			"6"
-		"wide"			"300"
+		"wide"			"600"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -282,7 +282,7 @@
 		"textAlignment"		"east"
 		"font"			"FontBold20"
 		"fgcolor"	"rpvwhite"
-		
+
 		if_mvm
 		{
 			"xpos"			"r300"
@@ -308,11 +308,11 @@
 		"font"			"FontBold20"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	
+
 		if_mvm
 		{
 			"visible"		"1"
-		}	
+		}
 	}
 	"MapLabel"
 	{
@@ -331,7 +331,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
-		
+
 	}
 	"SwitchCamModeLabel"
 	{
@@ -381,30 +381,30 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		
+
 		"model_xpos"		"10"
 		"model_center_y"	"1"
 		"model_wide"		"90"
 		"model_tall"		"55"
-		
+
 		"text_xpos"		"90"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"90"
 		"padding_height"	"40"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "1"
 			"useparentbg"		"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
@@ -422,7 +422,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
+
 		"attriblabel"
 		{
 			"ControlName"	"CExLabel"
@@ -442,5 +442,5 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
-	}	
+	}
 }

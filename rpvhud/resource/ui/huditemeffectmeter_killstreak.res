@@ -12,22 +12,24 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"r120"
-		"ypos"			"r50"
+		"xpos"			"r75"
+		"ypos"			"r25"
+		"xpos_minmode"			"r125"
+		"ypos_minmode"			"r63"
 		"zpos"			"0"
-		"wide"			"120"
-		"tall"			"12"
-		"visible"		"0"
-		"visible_minmode"	"1"
+		"wide"			"70"
+		"wide_minmode" "120"
+		"tall"			"20"
+		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"			"rpvdarkgrey"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -48,41 +50,26 @@
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
 	}
-	
+
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"77"
-		"xpos_minmode"	"r120"
-		"ypos"			"r15"
-		"ypos_minmode"	"r52"
+		"xpos"			"r75"
+		"xpos_minmode"	"r123"
+		"ypos"			"r25"
+		"ypos_minmode"	"r63"
 		"zpos"			"12"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}
-	
-	"KillStreakIconBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"KillStreakIconBG"
-		"xpos"			"80"
-		"ypos"			"r12"
-		"zpos"			"12"
-		"wide"			"11"
-		"tall"			"11"
-		"visible"		"1"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"fillcolor"			"rpvdarkgrey"
-	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -90,7 +77,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -98,29 +85,29 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
-	
+	}
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"100"
+		"xpos"					"r53"
 		"xpos_minmode"			"r120"
-		"ypos"					"r12"
-		"ypos_minmode"			"r50"
+		"ypos"					"r25"
+		"ypos_minmode"			"r63"
 		"zpos"					"2"
-		"wide"					"110"
-		"tall"					"12"	
+		"wide"					"45"
+		"wide_minmode"					"110"
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
-		"textAlignment_minmode"	"east"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"FontBold12"
+		"font"					"FontBold20"
 		"fgcolor_override"		"rpvwhite"
 	}
 }

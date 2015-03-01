@@ -98,7 +98,7 @@
         "labelText"     "%Health%"
         "textAlignment" "center"    
         "font"          "FontBold16"
-        "fgcolor"       "rpvblack"
+        "fgcolor"       "shadow1"
     }
 	"Top"
 	{
@@ -130,7 +130,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Left"
-		"xpos"			"0"		[$WIN32]
+		"xpos"			"-1"		[$WIN32]
 		"ypos"			"0"	[$WIN32]
 		"zpos"			"10"		
 		"wide"			"2"
